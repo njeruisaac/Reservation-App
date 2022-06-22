@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Reservation App</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_jack_maps">JackMaps</string>
+    <string name="title_activity_tratoria_maps">TratoriaMaps</string>
+    <string name="title_activity_ankole_maps">AnkoleMaps</string>
+    <string name="title_activity_tatu_maps">TatuMaps</string>
+    <string name="title_activity_mawimbi_maps">MawimbiMaps</string>
+    <string name="title_activity_maghreb_maps">MaghrebMaps</string>
+    <string name="title_activity_haandi_maps">HaandiMaps</string>
+    <string name="title_activity_thai_chi_maps">ThaiChiMaps</string>
+    <string name="title_activity_mercado_maps">MercadoMaps</string>
+</resources>

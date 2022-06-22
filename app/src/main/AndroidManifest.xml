@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.reservationapp">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ReservationApp"
+        tools:targetApi="31">
+
+        <!--
+             TODO: Before you run your application, you need a Google Maps API key.
+
+             To get one, follow the directions here:
+
+                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+
+             Once you have your API key (it starts with "AIza"), define a new property in your
+             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="${MAPS_API_KEY}" />
+
+        <activity
+            android:name=".MercadoMaps"
+            android:theme="@style/Theme.HomePage"
+            android:exported="false"
+            android:label="@string/title_activity_mercado_maps" />
+        <activity
+            android:name=".ThaiChiMaps"
+            android:theme="@style/Theme.HomePage"
+            android:exported="false"
+            android:label="@string/title_activity_thai_chi_maps" />
+        <activity
+            android:name=".HaandiMaps"
+            android:exported="false"
+            android:theme="@style/Theme.HomePage"
+            android:label="@string/title_activity_haandi_maps" />
+        <activity
+            android:name=".MaghrebMaps"
+            android:exported="false"
+            android:label="@string/title_activity_maghreb_maps" />
+        <activity
+            android:name=".MawimbiMaps"
+            android:theme="@style/Theme.HomePage"
+            android:exported="false"
+            android:label="@string/title_activity_mawimbi_maps" />
+        <activity
+            android:name=".TatuMaps"
+            android:exported="false"
+            android:theme="@style/Theme.HomePage"
+            android:label="@string/title_activity_tatu_maps" />
+        <activity
+            android:name=".AnkoleMaps"
+            android:exported="false"
+            android:theme="@style/Theme.HomePage"
+            android:label="@string/title_activity_ankole_maps" />
+        <activity
+            android:name=".TratoriaMaps"
+            android:theme="@style/Theme.HomePage"
+            android:exported="false"
+            android:label="@string/title_activity_tratoria_maps" />
+        <activity
+            android:name=".JackMaps"
+            android:exported="false"
+            android:theme="@style/Theme.HomePage"
+            android:label="@string/title_activity_jack_maps" />
+        <activity
+            android:name=".MawimbiSplash"
+            android:exported="false"
+            android:theme="@style/Theme.RestaurantLocation" />
+        <activity
+            android:name=".MercadoSplash"
+            android:exported="false"
+            android:theme="@style/Theme.RestaurantLocation" />
+        <activity
+            android:name=".ThaiChiSplash"
+            android:exported="false"
+            android:theme="@style/Theme.RestaurantLocation" />
+        <activity
+            android:name=".HaandiSplash"
+            android:exported="false"
+            android:theme="@style/Theme.RestaurantLocation" />
+        <activity
+            android:name=".MaghrebSplash"
+            android:exported="false"
+            android:theme="@style/Theme.RestaurantLocation" />
+        <activity
+            android:name=".TatuSplash"
+            android:exported="false"
+            android:theme="@style/Theme.RestaurantLocation" />
+        <activity
+            android:name=".AnkoleSplash"
+            android:exported="false"
+            android:theme="@style/Theme.RestaurantLocation" />
+        <activity
+            android:name=".TratoriaSplash"
+            android:exported="false"
+            android:theme="@style/Theme.RestaurantLocation" />
+        <activity
+            android:name=".JackSplash"
+            android:exported="false"
+            android:theme="@style/Theme.RestaurantLocation" />
+        <activity
+            android:name=".MercadoDate"
+            android:exported="false"
+            android:theme="@style/Theme.HomePage" />
+        <activity
+            android:name=".ThaiChiDate"
+            android:exported="false"
+            android:theme="@style/Theme.HomePage" />
+        <activity
+            android:name=".HaandiDate"
+            android:exported="false"
+            android:theme="@style/Theme.HomePage" />
+        <activity
+            android:name=".MaghrebDate"
+            android:exported="false"
+            android:theme="@style/Theme.HomePage" />
+        <activity
+            android:name=".MawimbiDate"
+            android:exported="false"
+            android:theme="@style/Theme.HomePage" />
+        <activity
+            android:name=".TatuDate"
+            android:exported="false"
+            android:theme="@style/Theme.HomePage" />
+        <activity
+            android:name=".AnkoleDate"
+            android:exported="false"
+            android:theme="@style/Theme.HomePage" />
+        <activity
+            android:name=".TratoriaDate"
+            android:exported="false"
+            android:theme="@style/Theme.HomePage" />
+        <activity
+            android:name=".FurusatoDate"
+            android:exported="false"
+            android:theme="@style/Theme.HomePage" />
+        <activity
+            android:name=".MercadoTablePage"
+            android:exported="false"
+            android:theme="@style/Theme.HomePage" />
+        <activity
+            android:name=".ThaiChiTablePage"
+            android:exported="false"
+            android:theme="@style/Theme.HomePage" />
+        <activity
+            android:name=".HaandiTablePage"
+            android:exported="false"
+            android:theme="@style/Theme.HomePage" />
+        <activity
+            android:name=".MaghrebTablePage"
+            android:exported="false"
+            android:theme="@style/Theme.HomePage" />
+        <activity
+            android:name=".MawimbiTablePage"
+            android:exported="false"
+            android:theme="@style/Theme.HomePage" />
+        <activity
+            android:name=".TatuTablePage"
+            android:exported="false"
+            android:theme="@style/Theme.HomePage" />
+        <activity
+            android:name=".AnkoleTablePage"
+            android:exported="false"
+            android:theme="@style/Theme.HomePage" />
+        <activity
+            android:name=".TratoriaTablePage"
+            android:exported="false"
+            android:theme="@style/Theme.HomePage" />
+        <activity
+            android:name=".FurusatoTablePage"
+            android:exported="false"
+            android:theme="@style/Theme.HomePage" />
+        <activity
+            android:name=".FurusatoSplash"
+            android:exported="false"
+            android:theme="@style/Theme.RestaurantLocation" />
+        <activity
+            android:name=".FurusatoMap"
+            android:exported="false"
+            android:label="@string/title_activity_maps"
+            android:theme="@style/Theme.HomePage" />
+        <activity
+            android:name=".JackDate"
+            android:exported="false"
+            android:theme="@style/Theme.TablePage" />
+        <activity
+            android:name=".LoginSplash"
+            android:exported="true"
+            android:label="@string/title_activity_splash_screen"
+            android:theme="@style/Theme.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".JackTablePage"
+            android:exported="false"
+            android:theme="@style/Theme.TablePage" />
+        <activity
+            android:name=".HomePage"
+            android:exported="true"
+            android:theme="@style/Theme.HomePage" />
+    </application>
+
+</manifest>
